@@ -20,7 +20,7 @@ server.route({
   method: 'GET',
   path:'/yo', 
   handler: function (request,reply) {
-    return reply('fuck you')  
+    return reply('wrong')  
   }
 });
 
