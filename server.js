@@ -20,7 +20,7 @@ server.route({
   method: 'GET',
   path:'/yo', 
   handler: function (request,reply) {
-    return reply('fuck you')  
+    return reply('wrong')  
   }
 });
 
@@ -30,5 +30,6 @@ server.start((err) => {
   if (err) {
     throw err;
   }
-  console.log('Server running at:', server.info.uri);
+//   console.log('Server running at:', server.info.uri);
+  console.log("server running at:  ",server.info.uri);
 });
